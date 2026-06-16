@@ -60,10 +60,12 @@ export const Contact = () => {
 
           {/* Mailto */}
           <a
-            href={collaboration.emailMailto}
+            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=ashutoshkumarbhardwaj7@gmail.com&su=Freelance%20Project%20Inquiry"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex"
           >
-            <div className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-10 px-8 w-full sm:w-auto text-foreground font-semibold cursor-pointer">
+            <div className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium h-10 px-8 border">
               Send an Email
             </div>
           </a>

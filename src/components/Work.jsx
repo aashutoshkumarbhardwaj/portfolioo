@@ -43,7 +43,12 @@ export const Work = () => {
                     <div className="flex-none pt-1 sm:pt-0">
                       <span className="relative flex shrink-0 overflow-hidden rounded-full border border-border size-12 m-auto bg-muted">
                         <span className={`flex h-full w-full items-center justify-center rounded-full text-white font-bold text-sm ${item.logoColor}`}>
-                          {item.logoLetter}
+                          
+                          <img
+                          src={item.image}
+                          alt={item.company}
+                            className="w-full h-full object-contain"
+                           />
                         </span>
                       </span>
                     </div>

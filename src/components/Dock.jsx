@@ -81,7 +81,7 @@ export const Dock = () => {
         <DockIcon mouseX={mouseX}>
           <div className="relative group flex items-center justify-center w-full h-full">
             <a
-              href="/blog"
+              href={socials.blogurl}
               onClick={handleBlogClick}
               className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring hover:bg-accent hover:text-accent-foreground rounded-full w-full h-full text-foreground"
             >
