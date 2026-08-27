@@ -166,7 +166,8 @@ export const portfolioData = {
         "Tailwind CSS"
       ],
       links: {
-        source: "https://github.com/aashutoshkumarbhardwaj/creatoros"
+        source: "https://github.com/aashutoshkumarbhardwaj/creatoros",
+        website: "https://officialcreatoros.vercel.app/"
       }
     },
     {
@@ -177,7 +178,7 @@ export const portfolioData = {
       tech: ["TypeScript", "React", "Next.js", "Supabase", "PostgreSQL", "Chrome Extension"],
       links: {
         source: "https://github.com/aashutoshkumarbhardwaj/JobOrbit",
-        website: "https://joborbit.app"
+        website: "https://job-orbit-flax.vercel.app/"
       }
     },
     {
@@ -198,7 +199,7 @@ export const portfolioData = {
       tech: ["Python", "PyTorch", "Transformers", "CUDA", "Jupyter", "LLM"],
       links: {
         source: "https://github.com/aashutoshkumarbhardwaj/AstroGPT",
-        website: "https://pypi.org/project/astro-eval/"
+        website: "https://huggingface.co/aashutoshkumarbhardwaj/astrogpt-50m"
       }
     },
     {
