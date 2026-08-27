@@ -156,6 +156,71 @@ socials: {
     links: {
       source: "https://github.com/aashutoshkumarbhardwaj/creatoros"
     }
+  },
+  {
+    title: "JobOrbit",
+    year: "2026",
+    description: "Built a full-stack job tracking platform that helps users organize applications, track hiring stages, manage job details, and stay on top of their job search workflow through a centralized dashboard.",
+    image: "/joborbit.png",
+    tech: ["TypeScript", "React", "Next.js", "Supabase", "PostgreSQL", "Chrome Extension"],
+    links: {
+      source: "https://github.com/aashutoshkumarbhardwaj/JobOrbit",
+      website: "https://joborbit.app"
+    }
+  },
+  {
+    title: "JOBBot",
+    year: "2026",
+    description: "Built a Python-based job discovery and web-scraping system that automates job collection from online sources and structures listings for faster job search and application workflows.",
+    image: "/jobbot.png",
+    tech: ["Python", "Web Scraping", "Automation", "Requests", "BeautifulSoup"],
+    links: {
+      source: "https://github.com/aashutoshkumarbhardwaj/JOBBotNoida"
+    }
+  },
+  {
+    title: "AstroGPT",
+    year: "2026",
+    description: "Built a custom decoder-only language model for astronomy and scientific text, including data processing, tokenization, model training, checkpointing, inference, and a reusable evaluation framework for systematic benchmarking.",
+    image: "/astrogpt.png",
+    tech: ["Python", "PyTorch", "Transformers", "CUDA", "Jupyter", "LLM"],
+    links: {
+      source: "https://github.com/aashutoshkumarbhardwaj/AstroGPT",
+      website: "https://pypi.org/project/astro-eval/"
+    }
+  },
+  {
+    title: "Astro-Eval",
+    year: "2026",
+    description: "Built and published a reusable LLM evaluation framework with model adapters, domain benchmarks, generation metrics, factuality scoring, error analysis, experiment tracking, model comparison, CLI tooling, Python APIs, and Markdown reports.",
+    image: "/astro-eval.png",
+    tech: ["Python", "PyTorch", "LLM Evaluation", "CLI", "Benchmarking", "PyPI"],
+    links: {
+      source: "https://github.com/aashutoshkumarbhardwaj/AstroGPT/tree/master/src/astro_eval",
+      website: "https://pypi.org/project/astro-eval/"
+    }
+  },
+  {
+    title: "Fine-Tuned Qwen 7B",
+    year: "2026",
+    description: "Fine-tuned Qwen2.5-7B-Instruct for astronomy and exoplanet reasoning using 4-bit QLoRA, training on 15.8K instruction-response examples generated from 32.5K NASA Exoplanet Archive observations with only 0.53% of model parameters updated.",
+    image: "/qwen7b.png",
+    tech: ["Python", "PyTorch", "Transformers", "PEFT", "QLoRA", "BitsAndBytes", "Kaggle", "Hugging Face"],
+    links: {
+      source: "https://github.com/aashutoshkumarbhardwaj/FineTuned-Qwen7B-Model",
+      model: "https://huggingface.co/aashutoshkumarbhardwaj/astro-qwen2.5-7b-qlora",
+      kaggle: "https://www.kaggle.com/models/aashutoshbhardwaj5/astro-qwen2.5-7b-qlora/transformers/v1"
+    }
+  },
+  {
+    title: "ATS Resume Optimizer",
+    year: "2026",
+    description: "Built an AI-powered resume optimization platform focused on improving resumes for applicant tracking systems through job-description analysis, resume matching, and targeted optimization.",
+    image: "/ats-resume-optimizer.png",
+    tech: ["JavaScript", "React", "AI", "NLP", "FastAPI"],
+    links: {
+      source: "https://github.com/aashutoshkumarbhardwaj/ATS-Resume-Optimizer"
+    }
   }
 ],
   collaboration: {
