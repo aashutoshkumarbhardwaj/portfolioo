@@ -91,6 +91,69 @@ export const portfolioData = {
     "PyTorch", "scikit-learn", "HuggingFace", "Groq", "LLaMA",
     "C++", "REST APIs", "CI/CD", "Git"
   ],
+  products: [
+    {
+      title: "OpenSearch",
+      year: "2026",
+      badge: "Desktop App",
+      description: "Private, local-first search engine, context memory, and local AI assistant for your desktop. Indexes user-selected folders, extracts content from text and PDF documents, creates semantic vector embeddings using open-weight models, and enables hybrid search (semantic vector + lexical keyword). Features an in-app local LLM manager to download and run models (SmolLM2, Llama 3.2, Qwen 2.5) directly through Ollama with zero cloud dependencies.",
+      image: "/opensearch.jpg",
+      tech: [
+        "Electron",
+        "Python",
+        "Ollama",
+        "Vector Embeddings",
+        "Hybrid Search",
+        "SmolLM2",
+        "Llama 3.2",
+        "Local AI"
+      ],
+      links: {
+        snapcraft: "https://snapcraft.io/opensearch-desktop",
+        source: "https://github.com/aashutoshkumarbhardwaj/openSearch"
+      }
+    },
+    {
+      title: "TouchQuest",
+      year: "2026",
+      badge: "Local AI · In-Browser",
+      description: "Local AI for life outside the feed. Generates short, personalized screen-free outdoor or fresh-air missions using SmolLM2 directly in the browser. Runs 100% client-side with no hosted AI endpoints and sends no mission prompt to a server.",
+      image: "/touchquest.jpg",
+      tech: [
+        "SmolLM2",
+        "WebGPU",
+        "Transformers.js",
+        "React",
+        "Tailwind CSS",
+        "Local AI",
+        "Privacy-First"
+      ],
+      links: {
+        releases: "https://github.com/aashutoshkumarbhardwaj/TouchQuest/releases",
+        source: "https://github.com/aashutoshkumarbhardwaj/TouchQuest"
+      }
+    },
+    {
+      title: "JobOrbit",
+      year: "2026",
+      badge: "Chrome Extension",
+      description: "Chrome extension and full-stack platform that optimizes resumes for Applicant Tracking Systems (ATS), auto-applies to jobs from LinkedIn, autofills any application form, and tracks every application you send — automatically.",
+      image: "/ats-resume-optimizer.png",
+      tech: [
+        "Chrome Extension",
+        "React",
+        "TypeScript",
+        "FastAPI",
+        "NLP",
+        "Automation",
+        "ATS Optimization"
+      ],
+      links: {
+        website: "https://ats-resume-optimizer-seven.vercel.app/",
+        source: "https://github.com/aashutoshkumarbhardwaj/ATS-Resume-Optimizer"
+      }
+    }
+  ],
   projects: [
     {
       title: "DeepSeaDNA AI",
